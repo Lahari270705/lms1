@@ -1,0 +1,78 @@
+/* Styling for the ManageCourses page */
+.manage-courses {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Title and headings */
+  .manage-courses h1 {
+    font-size: 2rem;
+    color: #003366;
+    margin-bottom: 20px;
+  }
+  
+  .manage-courses h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* List of courses */
+  .manage-courses ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .manage-courses li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .manage-courses li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Input fields and buttons */
+  .manage-courses input {
+    padding: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .manage-courses button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .manage-courses button:hover {
+    background-color: #0056b3;
+  }
+  
+  .manage-courses .btn {
+    background-color: #28a745;
+    padding: 5px 10px;
+  }
+  
+  .manage-courses .btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Total amount section */
+  .manage-courses h3 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #333;
+  }
+  

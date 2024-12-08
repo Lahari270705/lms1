@@ -1,0 +1,61 @@
+/* General styling for the EnrollCourses page */
+.enroll-courses {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Title and headings */
+  .enroll-courses h1 {
+    font-size: 2rem;
+    color: #003366;
+    margin-bottom: 20px;
+  }
+  
+  .enroll-courses h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* List of courses */
+  .enroll-courses ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .enroll-courses li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .enroll-courses li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Button styling */
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for enrolled courses */
+  .enroll-courses ul li {
+    font-size: 1rem;
+    color: #555;
+  }
+  

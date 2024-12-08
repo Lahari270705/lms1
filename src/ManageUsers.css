@@ -1,0 +1,93 @@
+.manage-users {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .manage-users h1 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 20px;
+  }
+  
+  .manage-users h2 {
+    color: #003366;
+    margin-bottom: 10px;
+  }
+  
+  .manage-users ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .manage-users ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .manage-users button {
+    padding: 8px 16px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .manage-users button:hover {
+    background-color: #00509e;
+    transform: scale(1.05);
+  }
+  
+  .manage-users input,
+  .manage-users select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .manage-users input:focus,
+  .manage-users select:focus {
+    outline: none;
+    border-color: #003366;
+  }
+  
+  .manage-users .add-user-section {
+    margin-top: 20px;
+  }
+  
+  .manage-users .add-user-section input,
+  .manage-users .add-user-section select {
+    margin-bottom: 10px;
+  }
+  
+  .manage-users .add-user-section button {
+    width: 100%;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .manage-users .add-user-section button:hover {
+    background-color: #00509e;
+  }
+  
